@@ -73,7 +73,7 @@ We're continuously working to improve WingWatch. Here are some new features:
 Link: https://github.com/users/ST10084726/projects/9/views/1
 
 ## Github
-Link: https://github.com/ST10084349/OPSC7312_POE_PART_2
+Link: [https://github.com/ST10084349/OPSC7312_POE_PART_2](https://github.com/ST10084349/OPSC7312_POE_FINAL.git)
 
 ## Troubleshooting:
 ### Issue: I can't log in.

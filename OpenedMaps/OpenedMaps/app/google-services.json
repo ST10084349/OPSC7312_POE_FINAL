@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828200533925",
+    "project_id": "opsc7312poe-97143",
+    "storage_bucket": "opsc7312poe-97143.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828200533925:android:cde3672f33c2a1bc1db24c",
+        "android_client_info": {
+          "package_name": "com.gigglegang.openedmaps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB58DYsIx5DoyEmwczW4VlobXH3Ti_YRQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

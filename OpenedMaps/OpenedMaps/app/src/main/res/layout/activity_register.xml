@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+  <!-- Background image -->
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:src="@drawable/two"
+      android:scaleType="centerCrop"
+      android:contentDescription="@string/todo5" />
+
+  <!-- Register UI components -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="16dp"
+      android:background="@android:color/transparent">
+
+  <!-- Large "Register" Text -->
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/register"
+      android:textSize="32sp"
+      android:paddingTop="135dp"
+      android:textColor="@android:color/white"
+      android:gravity="center" />
+
+  <!-- "Create your account" Text (above email EditText) -->
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/create_your_account"
+      android:textColor="@android:color/white"
+      android:gravity="center" />
+
+  <!-- Email EditText -->
+  <EditText
+      android:id="@+id/userEmail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/email"
+      android:inputType="textEmailAddress"
+      android:minHeight="48dp"
+      android:textColor="@color/white"
+      android:textColorHint="@android:color/white"
+      android:autofillHints=""
+      android:paddingTop="55dp"
+      tools:ignore="VisualLintTextFieldSize" />
+
+  <!-- Password EditText -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+  <EditText
+      android:id="@+id/passwordEditText"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      android:minHeight="48dp"
+      android:textColorHint="@android:color/white"
+      android:textColor="@color/white"
+      android:autofillHints=""
+      tools:ignore="VisualLintTextFieldSize" />
+
+    <ToggleButton
+        android:id="@+id/togglePasswordVisibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:src="@drawable/ic_show"
+        android:textColor="#0288D1"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+  </LinearLayout>
+
+  <!-- Confirm Password EditText -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+
+  <EditText
+      android:id="@+id/confirmPasswordEditText"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:hint="@string/confirm_password"
+      android:inputType="textPassword"
+      android:textColorHint="@android:color/white"
+      android:textColor="@color/white"
+      tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"
+      android:autofillHints="" />
+
+    <ToggleButton
+        android:id="@+id/toggleConfirmPasswordVisibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:src="@drawable/ic_show"
+        android:textColor="#0288D1" />
+  </LinearLayout>
+
+  <!-- Register Button -->
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/registerbtn"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+    <!-- Back to Login Text -->
+    <TextView
+        android:id="@+id/already_exist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:onClick="goToLoginPage"
+        android:text="@string/already_have_an_account_log_in_here"
+        android:textColor="@android:color/white" />
+
+  </LinearLayout>
+
+</RelativeLayout>

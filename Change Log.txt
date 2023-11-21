@@ -1,0 +1,15 @@
+Change Log
+**************************************************
+Part 2
+1. Hotspots were not retrieved from an API, instead the locations were saved on a list that has been populated by the latest bird hotpsot information.
+2. Educational Content has not been embedded into the app but the implementation of a WebView feature allows users to find the educational content online.
+3. Gamification feature will not be implemented.
+4. Filter feature has not been embedded in the app but through the use of the webView feature, the user can filter between birds.
+5. Forgot / Reset Password feature will be implemented.
+****************************************************
+Part 3
+1. User preferences are now stored in an online database.
+2. User notes are seamlessly saved to an online database.
+3. Implemented a camera feature for enhanced functionality.
+4. Forgot / Reset Password feature has been implemented in the app
+
